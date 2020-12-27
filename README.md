@@ -4,7 +4,7 @@
   Соответственно команды для запуска докерфайла следующие: 
   
   1) docker pull supersashka/docker101tutorial:latest
-  2) docker run --rm -p 7000:7000 -v "$PWD/my_ml_server/code:/root/my_ml_server/code" -i supersashka/docker101tutorial:latest
+  2) docker run --rm -p 7000:7000 -v "$PWD/my_ml_server/data:/root/my_ml_server/data" -i supersashka/docker101tutorial:latest
   
 Описание страниц.
 
